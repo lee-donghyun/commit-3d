@@ -86,8 +86,12 @@ function init(data: CommitData[]) {
   //
 
   window.addEventListener("resize", onWindowResize);
-  window.addEventListener("click", () => {
-    controls.autoRotate = !controls.autoRotate;
+  window.addEventListener("click", (e) => {
+    console.log(e);
+
+    if ((e.target as Element).classList?.contains("rotater")) {
+      controls.autoRotate = !controls.autoRotate;
+    }
   });
 }
 

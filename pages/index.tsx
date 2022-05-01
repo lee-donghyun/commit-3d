@@ -11,6 +11,12 @@ const Home: NextPage = () => {
         <title>Commit 3D</title>
         <meta name="description" content="visualize your commits 3d" />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="Commit 3D" />
+        <meta property="og:description" content="visualize your commits 3d" />
+        <meta
+          property="og:image"
+          content="https://puppeteer-screenshot-demo.vercel.app/api/screenshot?page=https://commit-3d.vercel.app/lee-donghyun&isDev=false"
+        />
       </Head>
       <div>
         <h1 className={styles.logo}>Commit 3D</h1>
