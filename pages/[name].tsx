@@ -30,9 +30,14 @@ const VisulaizerPage: NextPage<
         <br />
         {activeDays}D
       </h1>
-      <a className={styles.search} href="/">
+      <button
+        className={styles.search}
+        onClick={() => {
+          location.pathname = "/";
+        }}
+      >
         Search
-      </a>
+      </button>
     </div>
   );
 };
