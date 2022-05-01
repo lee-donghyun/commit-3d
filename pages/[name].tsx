@@ -6,7 +6,7 @@ import {
 import { useEffect } from "react";
 import crawler from "../helper/crawler";
 import run from "../helper/three";
-import styles from "../styles/Name.module.css";
+import styles from "../helper/Name.module.css";
 
 type Props = {
   data: CommitData[];
