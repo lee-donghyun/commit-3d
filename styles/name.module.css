@@ -1,0 +1,41 @@
+.name {
+  position: fixed;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #2fa4ff;
+  left: 2rem;
+  top: 4rem;
+  z-index: 5;
+}
+
+.commits {
+  text-align: right;
+  position: fixed;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #00ffdd;
+  right: 2rem;
+  bottom: 4rem;
+  z-index: 5;
+}
+
+.search {
+  background: none;
+  color: white;
+  border: none;
+  position: fixed;
+  left: 2rem;
+  bottom: 4rem;
+  z-index: 5;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+@media (min-width: 960px) {
+  .name {
+    font-size: 5rem;
+  }
+  .commits {
+    font-size: 4rem;
+  }
+}
